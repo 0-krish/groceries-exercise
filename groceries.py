@@ -95,6 +95,6 @@ for department in sorted_unique_departments:
 
     # print department information
     if product_count == 1:
-        print(" +", department.capitalize(), "(" + str(product_count), "product" + ")")
+        print(" +", department.title(), "(" + str(product_count), "product" + ")")
     else:
-        print(" +", department.capitalize(), "(" + str(product_count), "products" + ")")
+        print(" +", department.title(), "(" + str(product_count), "products" + ")")
